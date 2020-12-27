@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- add shortcut icon -->
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="https://cdn.glitch.com/68ce82fa-9bb5-4e14-a276-84316bdab80d%2FWhatsApp_Image_2020-12-27_at_01.40.08-removebg-preview.ico?v=1609035399300"
+      sizes="16x16"
+    />
+    <!-- add font -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Cookie"
+      rel="stylesheet"
+    />
+    <!--add javascript-->
+
+    <script async src="./index.js"></script>
+
+    <title>Name that Carol</title>
+    <!-- link for icons -->
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+
+    <!-- contact us container -->
+    <style>
+      .container {
+        height: 200px;
+        position: relative;
+        border: 3px solid #333333;
+        color: #FFFFFF;
+        background-color: #1A1A1A;
+        border-radius: 16px;
+        padding: 10px;
+      }
+
+      .vertical-center {
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+      }
+    </style>
+  </head>
+  <body>
+    <div id="snow"></div>
+    <h2>
+      Enjoy the traditional Christmas party game
+    </h2>
+
+    <!-- add logo-->
+    <img
+      src="https://cdn.glitch.com/68ce82fa-9bb5-4e14-a276-84316bdab80d%2FWhatsApp%20Image%202020-12-27%20at%2001.40.08.jpeg?v=1609036912410"
+    />
+
+    <h1>Name that Carol</h1>
+
+    <!-- chatbot -->
+    <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+    <df-messenger
+      intent="WELCOME"
+      chat-title="CarolBot"
+      agent-id="dafee5d8-e779-436f-8d40-2f1455a7e68b"
+      language-code="en"
+    ></df-messenger>
+  </body>
+</html>
