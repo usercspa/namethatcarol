@@ -1,0 +1,158 @@
+{
+  "candidates": [
+    {
+      "first_simple": {
+        "variants": [
+          {
+            "speech": "Merry Christmas!"
+          }
+        ]
+      },
+      "suggestions": [
+        {
+          "title": "Start"
+        }
+      ]
+    }
+  ]
+}
+
+{
+  "candidates": [
+    {
+      "first_simple": {
+        "variants": [
+          {
+            "speech": "I will play some music, and you can guess the name. Say START when you want to start the game."
+          }
+        ]
+      },
+      "suggestions": [
+        {
+          "title": "Start"
+        },
+        {
+          "title": "Maybe later"
+        }
+      ]
+    }
+  ]
+}
+
+{
+  "candidates": [
+    {
+      "first_simple": {
+        "variants": [
+          {
+            "speech": "Listen carefully."
+          }
+        ]
+      },
+      "content": {
+        "media": {
+          "start_offset": "2.123450s",
+          "optional_media_controls": [
+            "PAUSED",
+            "STOPPED"
+          ],
+          "media_objects": [
+            {
+              "name": "Media name",
+              "description": "Media description",
+              "url": "https://cdn.glitch.com/68ce82fa-9bb5-4e14-a276-84316bdab80d%2FCarolofthebells.mp3?v=16090407980733"
+            }
+          ],
+          "media_type": "AUDIO"
+        }
+      },
+      "last_simple": {
+        "variants": [
+          {
+            "speech": "What is the name of this song?"
+          }
+        ]
+      }
+    }
+  ]
+}
+
+{
+  "candidates": [
+    {
+      "first_simple": {
+        "variants": [
+          {
+            "speech": "Correct! Here is the next song"
+          }
+        ]
+      }
+    }
+  ]
+}
+
+{
+  "candidates": [
+    {
+      "first_simple": {
+        "variants": [
+          {
+            "speech": "Listen carefully."
+          }
+        ]
+      },
+      "content": {
+        "media": {
+          "start_offset": "2.123450s",
+          "optional_media_controls": [
+            "PAUSED",
+            "STOPPED"
+          ],
+          "media_objects": [
+            {
+              "name": "Media name",
+              "description": "Media description",
+              "url": "https://cdn.glitch.com/68ce82fa-9bb5-4e14-a276-84316bdab80d%2Fjinglebells%20(audio-extractor.net).mp3?v=1609045720707"
+            }
+          ],
+          "media_type": "AUDIO"
+        }
+      },
+      "last_simple": {
+        "variants": [
+          {
+            "speech": "What is the name of this song?"
+          }
+        ]
+      }
+    }
+  ]
+}
+
+{
+  "candidates": [
+    {
+      "first_simple": {
+        "variants": [
+          {
+            "speech": "No worries. Come back when you would like to play again!"
+          }
+        ]
+      }
+    }
+  ]
+}
+
+{
+  "candidates": [
+    {
+      "first_simple": {
+        "variants": [
+          {
+            "speech": "Great job! Hope you enjoyed it, goodbye!"
+          }
+        ]
+      }
+    }
+  ]
+}
